@@ -9,6 +9,7 @@ public class LinearSearch {
         for(int i = 0;i < listOfElements.size();i++){
             if(listOfElements.get(i) == userInput){
                 System.out.println("Index number is "+i);
+                count = count + 1;
                 break;
             }
         }
